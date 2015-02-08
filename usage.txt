@@ -1,0 +1,10 @@
+This is how to use the script -
+1. Go to the folder in shell where you downloaded the script
+2. give execute permissions to it - chmod +x ./downloader.sh
+3. run the script - ./downloader.sh "http://FileUrl/file1.mp4" outputfile.mp4
+
+The file will be saved as outputfile.mp4 in the present directory. 
+Parameters such as number of parallel threads, segment size and start-segment (in case you want to resume an interuppted download) can be changed by editing the script in any text editor.
+PS - This script requires curl and parallel commands to work. Curl is available on almost all linux systems. Parallel can be installed using command -
+curl http://pi.dk/3/ | bash
+
